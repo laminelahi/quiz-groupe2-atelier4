@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div id="container">
+        <h1>QUIZ COVID-19</h1>
+       <form id="formulaire" >
+        <h2>question1</h2>
+        
+                   <label for="temp">Est-ce que votre température est supérieur à 37?</label><br>
+                  <input type="radio" id="oui-temp" name="temp" value="oui">
+                  <label for="oui-temp">Oui</label><br>
+                  <input type="radio" id="non-temp" name="temp" value="non">
+                  <label for="non-temp">Non</label><br>
+                     
+        <h2>question2</h2>
+        <p>Syntomes : </p>
+                  <label for="fièvre">Avez-vous de la Fièvre?</label><br>
+                  <input type="radio" id="oui-fièvre" name="fièvre" value="oui">
+                  <label for="oui-fièvre">Oui</label><br>
+                  <input type="radio" id="non-fièvre" name="fièvre" value="non">
+                  <label for="non-fièvre">Non</label><br>
+
+                  <label for="fatigue" >Avez-vous de la fatigue?</label><br>
+                  <input type="radio" id="oui-fatique" name="fatigue" value="oui">
+                  <label for="oui-fatigue">Oui</label><br>
+                  <input type="radio" id="non-fatigue" name="fatigue" value="non">
+                  <label for="non-fatigue">Non</label><br>
+
+
+                  <label for="mdt">Avez-vous des mots de tetes?</label><br>
+                  <input type="radio" id="oui-mdt" name="mdt" value="oui">
+                  <label for="oui-mdt">Oui</label><br>
+                  <input type="radio" id="non-mdt" name="mdt" value="non">
+                  <label for="non-mdt">Non</label><br>
+
+                  
+       
+                  <h2>question3</h2>
+                  <label for="resp">Avez vous des problemes respiratoires? :</label> <br>
+                  <input type="radio" id="oui-resp" name="resp" value="oui">
+                  <label for="oui-resp">Oui</label><br>
+                  <input type="radio" id="non-resp" name="resp" value="non">
+                  <label for="non-resp">Non</label><br>
+
+       
+        
+     
+                   <h2>question4</h2>
+                
+
+              <label for="contact">Avez vous été en contact avec une personne malade du covd 19 dans les derniers jours ?</label> <br>
+                  <input type="radio" id="oui-contact" name="contact" value="oui">
+                  <label for="oui-contact">Oui</label><br>
+                  <input type="radio" id="non-contact" name="contact" value="non">
+                  <label for="non-contact">Non</label><br>
+
+              <br><br>
+              <input type="submit" value="Vérifier">
+   
+              
+  
+  
+        </form>
+    </div>  
+    <div id="result"></div>
+
+    <script src="test.js"></script>
+</body>
+</html>
